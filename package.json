@@ -1,0 +1,37 @@
+{
+  "name": "tea-eval",
+  "version": "0.0.4",
+  "description": "dynamic execute js expression",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "build": "father build",
+    "2publish": "node scripts/publish.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyCupOfTeaOo/tea-eval.git"
+  },
+  "keywords": [
+    "javaScript",
+    "TypeScript",
+    "eval",
+    "function"
+  ],
+  "author": "tea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MyCupOfTeaOo/tea-eval/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/MyCupOfTeaOo/tea-eval#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "father": "^2.29.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0"
+  }
+}
