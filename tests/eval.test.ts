@@ -30,6 +30,16 @@ describe("utils", () => {
     );
     expect(func()).toBe(1);
   });
+  it("createFunction: global", () => {
+    const func = createFunc(
+      `
+    return ttttt
+    `,
+      [],
+      { ttttt: 1 }
+    );
+    expect(func).toThrow();
+  });
   it("createFunction: errorContext", () => {
     const func = createFunc(
       `
