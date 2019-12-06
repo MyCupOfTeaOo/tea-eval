@@ -1,9 +1,10 @@
 {
   "name": "tea-eval",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "dynamic execute js expression",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
+  "typings": "dist/src/index",
   "scripts": {
     "build": "father build",
     "2publish": "node scripts/publish.js",
@@ -32,6 +33,7 @@
     "@types/jest": "^24.0.23",
     "father": "^2.29.0",
     "jest": "^24.9.0",
-    "ts-jest": "^24.2.0"
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.3"
   }
 }
