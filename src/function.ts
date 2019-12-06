@@ -9,5 +9,5 @@ export function createFunc(
   args: any[] = [],
   ctx: { [key: string]: any } = {}
 ): Function {
-  return safeFunc(expr, ...args).bind(ctx);
+  return safeFunc(expr, args).bind(ctx);
 }

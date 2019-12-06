@@ -1,6 +1,6 @@
 {
   "name": "tea-eval",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "dynamic execute js expression",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
